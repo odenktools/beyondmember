@@ -1,0 +1,31 @@
+{
+    "name": "ngakost/beyondmember",
+    "license": "MIT",
+	"type": "library",
+	"keywords": ["scala", "laravel", "auth", "laravel auth", "membership", "roles", "permissions"],
+	"homepage": "https://github.com/odenktools/beyondmember",	
+    "authors": [
+        {
+            "name": "Odenktools",
+            "email": "odenktools86@gmail.com",
+			"homepage": "http://ngakost.net/code/php/beyondmember",
+            "role": "Developer"	
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "~5.1",
+        "illuminate/support": "5.1.*",
+        "illuminate/validation": "5.1.*",
+		"nesbot/carbon": "~1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ngakost\\BeyondMember\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },	
+    "minimum-stability": "stable"
+}
